@@ -1,0 +1,16 @@
+.logo {
+    color: #34547A;
+    font-size: 48px;
+}
+.App-header {
+    background-color: #EEEFF1;
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+}
