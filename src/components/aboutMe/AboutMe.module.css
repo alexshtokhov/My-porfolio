@@ -9,4 +9,19 @@
 .text {
     width: 540px;
     margin: 50px auto;
+    padding-bottom: 50px;
+}
+.advantages {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #34547A;
+    color: aliceblue;
+}
+.advantageItem {
+    display: flex;
+    padding: 100px 50px;
+}
+.advantageItem img {
+    padding: 0 10px;
 }

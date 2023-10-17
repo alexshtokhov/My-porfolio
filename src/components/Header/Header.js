@@ -1,13 +1,14 @@
-import './Header.css';
+import './Header.module.css';
 import Menu from "./Menu/Menu";
 import MainHeader from "./MainHeader/MainHeader";
+import s from "./Header.module.css"
 
 const Header = () => {
     return (
-        <header className="App-header">
-            <div className='header'>
-                <div className='logo'>
-                    ALEX SHTOKHOV
+        <header className={s.appHeader}>
+            <div className={s.header}>
+                <div className={s.logo}>
+                    AS
                 </div>
                 <div>
                     <Menu/>
